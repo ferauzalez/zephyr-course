@@ -2,7 +2,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
 
-#define SLEEP_TIME_MS 1000
+#define SLEEP_TIME_MS 150
 
 /* The devicetree node identifier for the "led0" alias. */
 #define LED_NODE DT_ALIAS(led0)
@@ -13,7 +13,8 @@ LOG_MODULE_REGISTER(main, LOG_LEVEL_INF);
 
 int main(void)
 {
-    bool led_state = true;
+    //bool led_state = true;
+    bool led_state = false;
 
     if (!gpio_is_ready_dt(&led)) return 0;
 
