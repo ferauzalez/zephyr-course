@@ -1,0 +1,6 @@
+board:
+  name: nucleo_ferna
+  full_name: Nucleo F401RE de Fernando
+  vendor: fernando
+  socs:
+    - name: stm32f401xe

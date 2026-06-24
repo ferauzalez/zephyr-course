@@ -1,0 +1,19 @@
+identifier: nucleo_ferna
+name: Nucleo F401RE de Fernando
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - pwm
+  - counter
+  - gpio
+  - i2c
+  - spi
+  - adc
+  - watchdog
+  - rtc
+ram: 96
+flash: 512
+vendor: fernando
