@@ -6,8 +6,8 @@
     leds:leds {
         compatible = "gpio-leds";
         myLedNodeLabel: myLedNode {
-            gpios = <&gpioa 5 GPIO_ACTIVE_HIGH>;
-            label = "BUILT-IN LED";
+            gpios = <&gpioc 7 GPIO_ACTIVE_HIGH>;
+            label = "External LED";
         };
     };
 };

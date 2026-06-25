@@ -1,0 +1,6 @@
+board:
+  name: another_board
+  full_name: Another board by Fernando
+  vendor: fernando-electronics
+  socs:
+    - name: stm32f401xe

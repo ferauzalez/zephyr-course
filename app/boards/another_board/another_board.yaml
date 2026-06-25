@@ -1,0 +1,19 @@
+identifier: another_board
+name: Another board by Fernando
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - pwm
+  - counter
+  - gpio
+  - i2c
+  - spi
+  - adc
+  - watchdog
+  - rtc
+ram: 96
+flash: 512
+vendor: fernando electronics
